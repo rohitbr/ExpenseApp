@@ -8,30 +8,6 @@
 
 import SwiftUI
 
-//class User : ObservableObject {
-//    @Published var firstname = "Rohit"
-//    @Published var lastName = "Bhat"
-//}
-//@ObservedObject var user = User()
-//    @Environment(\.presentationMode) var presentationMode
-
-//Button("Dismiss") {
-//           self.presentationMode.wrappedValue.dismiss()
-//       }
-//
-//List {
-//    ForEach (numbers, id: \.self) { number in
-//        Text("\(number)")
-//    }
-//.onDelete(perform: removeRows)
-//}
-//
-//.navigationBarItems(leading: EditButton())
-//
-//func removeRows(at offsets: IndexSet) {
-//       numbers.remove(atOffsets: offsets)
-//}
-
 struct ExpenseItem : Identifiable, Codable {
     let id = UUID()
     let name : String
