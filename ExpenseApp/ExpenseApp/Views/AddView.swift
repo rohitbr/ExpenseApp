@@ -13,7 +13,7 @@ struct AddView: View {
     @State private var type = "Personal"
     @State private var amount = ""
     static let types = ["Business", "Personal"]
-    @ObservedObject var expenses : Expenses
+    @ObservedObject var expenses : ExpensesViewModel
     @Environment(\.presentationMode) var presentationMode
 
     var body: some View {

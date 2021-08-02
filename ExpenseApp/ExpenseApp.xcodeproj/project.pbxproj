@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7AC7D9CF26B8AD48009A8912 /* ExpensesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC7D9CE26B8AD48009A8912 /* ExpensesViewModel.swift */; };
 		F901971C242435CD00CFCB0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901971B242435CD00CFCB0A /* AppDelegate.swift */; };
 		F901971E242435CD00CFCB0A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901971D242435CD00CFCB0A /* SceneDelegate.swift */; };
 		F9019720242435CD00CFCB0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F901971F242435CD00CFCB0A /* ContentView.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7AC7D9CE26B8AD48009A8912 /* ExpensesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewModel.swift; sourceTree = "<group>"; };
 		F9019718242435CD00CFCB0A /* ExpenseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpenseApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F901971B242435CD00CFCB0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F901971D242435CD00CFCB0A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AC7D9D126B8AE7C009A8912 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F901972F2424711C00CFCB0A /* AddView.swift */,
+				F901971F242435CD00CFCB0A /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AC7D9D326B8AE86009A8912 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7AC7D9CE26B8AD48009A8912 /* ExpensesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		F901970F242435CD00CFCB0A = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +77,10 @@
 		F901971A242435CD00CFCB0A /* ExpenseApp */ = {
 			isa = PBXGroup;
 			children = (
-				F901972F2424711C00CFCB0A /* AddView.swift */,
+				7AC7D9D126B8AE7C009A8912 /* Views */,
 				F901971B242435CD00CFCB0A /* AppDelegate.swift */,
 				F901971D242435CD00CFCB0A /* SceneDelegate.swift */,
-				F901971F242435CD00CFCB0A /* ContentView.swift */,
+				7AC7D9D326B8AE86009A8912 /* ViewModel */,
 				F9019721242435CE00CFCB0A /* Assets.xcassets */,
 				F9019726242435CE00CFCB0A /* LaunchScreen.storyboard */,
 				F9019729242435CE00CFCB0A /* Info.plist */,
@@ -149,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC7D9CF26B8AD48009A8912 /* ExpensesViewModel.swift in Sources */,
 				F90197302424711C00CFCB0A /* AddView.swift in Sources */,
 				F901971C242435CD00CFCB0A /* AppDelegate.swift in Sources */,
 				F901971E242435CD00CFCB0A /* SceneDelegate.swift in Sources */,
